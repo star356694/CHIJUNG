@@ -1,18 +1,41 @@
-section img{
-    width: 25vw;
-    height: 30vh;
-    position: relative;
-    margin: 5px;
-    border-radius: 50px;
-    left: 50px;
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgba(112, 165, 156, 0.7);
+
 }
 
-section .where:nth-child(even){
-    position: absolute;
-    left: 50%;
+section img{
+    width: 300px;
+    height: 300px;  
+    border-radius: 50%;
+    margin: 25px;
+    border: 5px dashed rgba(112, 165, 156, 0.7);
 }
 .where{
-        /* width: 100px;
-        height: 100px; */
-
+    margin-bottom: 50px;
+    
 }
+.convenient{
+    text-align: center;
+    color: #e6e6e6;
+    font-family: 微軟正黑體;
+    font-size: 50px;
+    font-style: italic;
+    background: rgba(112, 165, 156, 0.7);
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+img:hover{
+    clip-path: polygon(21% 31%, 0 50%, 36% 84%, 100% 21%, 81% 4%, 39% 50%);
+    cursor: pointer;
+}
+
+
