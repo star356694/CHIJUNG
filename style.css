@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #CAE9E4; */
+    background-image: url(IMAGE/school.jpg);
+    background-position: 50% 10%;
+    
+}
+li, a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    /* background-color: rgba(112, 165, 156, 0.5); */
+}
+header{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    text-align: center;
+    padding: 50px 5%;
+    background-color: rgba(112, 165, 156, 0.5);
+    margin-bottom: 50px;
+}
+#logo{
+    cursor: pointer;
+    width: 450px;
+    height: 100px;
+    margin: 50px;
+}
+.nav_link{
+    list-style: none;
+}
+.nav_link li {
+    display: inline-block;
+    padding: 0px 50px;
+}
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_link li a:hover{
+    color: #58F6DC;
+    text-shadow: 0px 0px 5px #54EAD1;
+}
+/* footer{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    background: rgba(112, 165, 156, 0.9);
+} */
+
+
+/* LOGO */
+#logo{
+    width: 30%;
+    height: 50%;
+    fill-opacity: 0;
+    animation: final 0.5s ease forwards 1.8s;
+    transition: opacity 5s ease;
+}
+#logo path:nth-child(1){
+    stroke-dasharray: 4246;
+    stroke-dashoffset: 4246;
+    animation: line-anime 2s ease forwards;
+}
+#logo path:nth-child(2){
+    stroke-dasharray: 7009;
+    stroke-dashoffset: 7009;
+    animation: line-anime 2s ease forwards 0.8s;
+}
+#logo path:nth-child(3){
+    stroke-dasharray: 4210;
+    stroke-dashoffset: 4210;
+    animation: line-anime 2s ease forwards 1.1s;
+}
+#logo path:nth-child(4){
+    stroke-dasharray: 8258;
+    stroke-dashoffset: 8258;
+    animation: line-anime 2s ease forwards 1.4s;
+}
+
+@keyframes line-anime{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes final{
+    50%{
+        fill-opacity: 1;
+        transform: scale(1.1,1.1);  
+        
+    }
+    75%{
+        fill-opacity: 1;
+        transform: scale(0.5,0.5);
+        
+    }
+    100%{
+        fill-opacity: 1;
+        transform: scale(1,1);
+    }
+}

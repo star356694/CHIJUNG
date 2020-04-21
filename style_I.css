@@ -1,0 +1,18 @@
+section img{
+    width: 25vw;
+    height: 30vh;
+    position: relative;
+    margin: 5px;
+    border-radius: 50px;
+    left: 50px;
+}
+
+section .where:nth-child(even){
+    position: absolute;
+    left: 50%;
+}
+.where{
+        /* width: 100px;
+        height: 100px; */
+
+}

@@ -1,0 +1,33 @@
+.v{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+}
+.conp{
+    margin: 3%;
+    font-family: 微軟正黑體;
+    border: dashed 3px black;
+    background: rgba(112, 165, 156, 0.5);
+    width: 45%;
+    
+}
+button{
+    background-color: rgba(112, 165, 156, 0.9);
+    margin: 2%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #edf0f1;
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    outline: none;
+}
+iframe{
+    border: rgb(112, 165, 156) dashed 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+iframe:hover{
+    box-shadow: 5px 0px 20px 15px #58F6DC;
+}

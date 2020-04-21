@@ -1,0 +1,28 @@
+.out{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5%;
+}
+.out div{
+    border: dashed rgba(112, 165, 156) 5px;
+    background: rgba(112, 165, 156, 0.3);
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 100px;
+    text-align: center;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size: 30px;  
+    color: #1c302c;
+    text-shadow: 1px 1px 0.5px white;
+}
+
+.out img{
+    width: auto;
+    height: 200px;
+    border-radius: 20px;
+    
+    
+}
