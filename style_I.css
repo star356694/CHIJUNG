@@ -59,3 +59,13 @@ section{
     font-size: large;
     margin-right: 15px;
 }
+.intro_title{
+    text-align: center;
+    color: white;
+    font-family: 微軟正黑體;
+    font-size: 50px;
+    background: rgba(112, 165, 156, 0.7);
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 10px;
+}
