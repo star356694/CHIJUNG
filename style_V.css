@@ -13,9 +13,10 @@
     margin-top: 10%;
     margin-bottom: 5%;
     font-family: 微軟正黑體;
-    border: dashed 3px black;
+    border: dashed 3px rgb(190, 187, 187);
     background: rgba(112, 165, 156, 0.5);
     width: 45%;
+    padding: 5px;
     
 }
 button{
