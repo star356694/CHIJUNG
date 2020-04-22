@@ -6,7 +6,7 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: rgba(112, 165, 156, 0.7);
+    /* background: rgba(112, 165, 156, 0.7); */
 }
 
 .index{
@@ -21,7 +21,7 @@ section{
 }
 .convenient{
     text-align: center;
-    color: #e6e6e6;
+    color: white;
     font-family: 微軟正黑體;
     font-size: 50px;
     font-style: italic;
@@ -54,9 +54,10 @@ section{
     height: 300px;  
     border-radius: 50px;
     margin: 25px;
-    /* border: 5px dashed rgba(112, 165, 156, 0.7); */
+    border: 5px dashed rgba(112, 165, 156, 0.7);
 }
 .dir{
     color: #e6e6e6;
     font-size: large;
+    margin: 10px;
 }
