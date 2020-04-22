@@ -8,6 +8,6 @@ button.onclick = function(){
     }
     else{
         button.innerHTML="看花絮";
-        video.src="https://www.youtube.com/embed/F5LhFqFplPo";
+        video.src="https://www.youtube.com/embed/GrAuP-Xx-EU";
     }
 };

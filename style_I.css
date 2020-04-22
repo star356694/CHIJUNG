@@ -6,6 +6,7 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    min-height: 100%;
     /* background: rgba(112, 165, 156, 0.7); */
 }
 
