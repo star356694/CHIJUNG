@@ -10,14 +10,14 @@
     
 }
 .conp{
-    margin-top: 10%;
+    /* margin-top: 10%; */
     margin-bottom: 5%;
     font-family: 微軟正黑體;
     border: dashed 3px rgb(190, 187, 187);
     background: rgba(112, 165, 156, 0.5);
     width: 45%;
     padding: 5px;
-    
+    color: #edf0f1;
 }
 button{
     background-color: rgba(112, 165, 156, 0.9);
@@ -36,4 +36,11 @@ iframe{
 }
 iframe:hover{
     box-shadow: 5px 0px 20px 15px #58F6DC;
+}
+.story{
+    color: #edf0f1;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 微軟正黑體;
 }
