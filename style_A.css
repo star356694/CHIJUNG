@@ -39,7 +39,8 @@
     position: absolute;
     left:0%;
     top: 0%;
-    
+    display: flex;
+    flex-direction: column;
 }
 .feel:hover{
     opacity: 1;
